@@ -5,9 +5,7 @@ RUN dotnet restore "MVC_K8S/MVC_K8S.csproj"
 COPY . .
 WORKDIR "/src/MVC_K8S"
 RUN dotnet build "MVC_K8S.csproj" -c Release -o /app/build
-
-FROM build AS publish
-RUN dotnet publish "MVC_K8S.csproj" -c Release --runtime alpine-x64 -c Release --self-contained true -o /app/publish /p:PublishSingleFile=true /p:PublishTrimmed=true
+RUN dotnet publish -c Release -o /app/publish --runtime alpine-x64 --self-contained true /p:PublishSingleFile=true /p:PublishTrimmed=true
 
 FROM alpine:3.9.4
 # Add some libs required by .NET runtime 
