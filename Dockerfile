@@ -10,5 +10,5 @@ EXPOSE 80
 EXPOSE 443
 # Copy 
 WORKDIR /app
-COPY ./app/publish ./
+COPY --from=build /app/publish .
 ENTRYPOINT ["./MVC_K8S", "--urls", "http://0.0.0.0:80"]
