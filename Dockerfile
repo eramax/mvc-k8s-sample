@@ -1,5 +1,6 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
-WORKDIR "/src/"
+WORKDIR /app
+COPY . ./
 RUN dotnet publish -c Release -o /app/publish --runtime alpine-x64 --self-contained true /p:PublishSingleFile=true /p:PublishTrimmed=true
 
 FROM alpine:3.9.4
