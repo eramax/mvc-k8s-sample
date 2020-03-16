@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\eramax\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\eramax\\.nuget\\packages"
-    ]
-  }
-}
