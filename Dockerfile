@@ -5,7 +5,7 @@ RUN dotnet publish -c Release -o /app/publish --runtime alpine-x64 --self-contai
 
 
 FROM eramax/dotnetcore:latest
-
+ENV ASPNETCORE_ENVIRONMENT=Development
 # Copy 
 WORKDIR /app
 COPY --from=build /app/publish .
