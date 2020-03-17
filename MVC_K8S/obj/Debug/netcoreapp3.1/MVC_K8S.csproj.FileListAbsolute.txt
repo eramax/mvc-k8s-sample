@@ -25,7 +25,6 @@ C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.d
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
-C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
@@ -33,7 +32,6 @@ C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.A
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
-C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
@@ -50,7 +48,6 @@ C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dl
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -70,9 +67,6 @@ C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\System.Composition.Convention.d
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
-C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
@@ -125,11 +119,6 @@ C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Works
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
@@ -142,14 +131,8 @@ C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlit
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
-C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\repos\MVC_K8S\MVC_K8S\obj\Debug\netcoreapp3.1\MVC_K8S.csprojAssemblyReference.cache
 C:\repos\MVC_K8S\MVC_K8S\obj\Debug\netcoreapp3.1\staticwebassets\MVC_K8S.StaticWebAssets.Manifest.cache
 C:\repos\MVC_K8S\MVC_K8S\obj\Debug\netcoreapp3.1\staticwebassets\MVC_K8S.StaticWebAssets.xml
-C:\repos\MVC_K8S\MVC_K8S\obj\Debug\netcoreapp3.1\MVC_K8S.MvcApplicationPartsAssemblyInfo.cs
-C:\repos\MVC_K8S\MVC_K8S\obj\Debug\netcoreapp3.1\MVC_K8S.MvcApplicationPartsAssemblyInfo.cache
 C:\repos\MVC_K8S\MVC_K8S\obj\Debug\netcoreapp3.1\MVC_K8S.RazorAssemblyInfo.cache
 C:\repos\MVC_K8S\MVC_K8S\obj\Debug\netcoreapp3.1\MVC_K8S.RazorAssemblyInfo.cs
 C:\repos\MVC_K8S\MVC_K8S\obj\Debug\netcoreapp3.1\MVC_K8S.AssemblyInfoInputs.cache
@@ -177,3 +160,8 @@ C:\repos\MVC_K8S\MVC_K8S\obj\Debug\netcoreapp3.1\MVC_K8S.Views.pdb
 C:\repos\MVC_K8S\MVC_K8S\obj\Debug\netcoreapp3.1\MVC_K8S.csproj.CopyComplete
 C:\repos\MVC_K8S\MVC_K8S\obj\Debug\netcoreapp3.1\MVC_K8S.dll
 C:\repos\MVC_K8S\MVC_K8S\obj\Debug\netcoreapp3.1\MVC_K8S.pdb
+C:\repos\MVC_K8S\MVC_K8S\obj\Debug\netcoreapp3.1\MVC_K8S.MvcApplicationPartsAssemblyInfo.cs
+C:\repos\MVC_K8S\MVC_K8S\obj\Debug\netcoreapp3.1\MVC_K8S.MvcApplicationPartsAssemblyInfo.cache
+C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
+C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
