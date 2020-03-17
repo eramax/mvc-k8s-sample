@@ -29,7 +29,7 @@ metadata:
   name: mvc-srv
 spec:
   selector:
-    app: mvc
+    app: mvc-app
   ports:
     - protocol: TCP
       port: 80
