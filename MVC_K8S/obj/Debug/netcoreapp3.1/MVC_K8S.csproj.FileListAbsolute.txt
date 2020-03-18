@@ -160,8 +160,8 @@ C:\repos\MVC_K8S\MVC_K8S\obj\Debug\netcoreapp3.1\MVC_K8S.Views.pdb
 C:\repos\MVC_K8S\MVC_K8S\obj\Debug\netcoreapp3.1\MVC_K8S.csproj.CopyComplete
 C:\repos\MVC_K8S\MVC_K8S\obj\Debug\netcoreapp3.1\MVC_K8S.dll
 C:\repos\MVC_K8S\MVC_K8S\obj\Debug\netcoreapp3.1\MVC_K8S.pdb
-C:\repos\MVC_K8S\MVC_K8S\obj\Debug\netcoreapp3.1\MVC_K8S.MvcApplicationPartsAssemblyInfo.cs
-C:\repos\MVC_K8S\MVC_K8S\obj\Debug\netcoreapp3.1\MVC_K8S.MvcApplicationPartsAssemblyInfo.cache
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\MySqlConnector.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
 C:\repos\MVC_K8S\MVC_K8S\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
+C:\repos\MVC_K8S\MVC_K8S\obj\Debug\netcoreapp3.1\MVC_K8S.MvcApplicationPartsAssemblyInfo.cs
+C:\repos\MVC_K8S\MVC_K8S\obj\Debug\netcoreapp3.1\MVC_K8S.MvcApplicationPartsAssemblyInfo.cache
