@@ -1,11 +1,52 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  name: mysql-dept
+  labels:
+    app: mysql
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mysql
+  template:
+    metadata:
+      labels:
+        app: mysql
+    spec:
+      containers:
+        - name: mysql
+          image: jbergstroem/mariadb-alpine
+          ports:
+            - containerPort: 3306
+          env:
+            - name: MYSQL_ROOT_PASSWORD
+              value: "123"
+            - name: MYSQL_DATABASE
+              value: "db"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mysql-srv
+spec:
+  ports:
+    - port: 3306
+      protocol: TCP
+      targetPort: 3306
+      nodePort: 30306
+  type: NodePort
+  selector:
+    app: mysql
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
   name: mvc-dep
   labels:
     app: mvc-app
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: mvc-app
@@ -20,8 +61,8 @@ spec:
         ports:
         - containerPort: 80
         env:
-        - name: ConnectionStrings__ProductsContext
-          value: Server=mysql;port=3306;database=db;uid=sa;password=123456"
+        - name: ConnectionStrings__DefaultConnection
+          value: Server=mysql-srv;database=db;user=root;password=123;port=3306;SSL Mode=None;
 ---
 apiVersion: v1
 kind: Service
