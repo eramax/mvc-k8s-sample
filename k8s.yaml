@@ -14,6 +14,8 @@ spec:
       labels:
         app: mysql
     spec:
+      securityContext:
+        runAsUser: 0
       containers:
         - name: mysql
           image: jbergstroem/mariadb-alpine
@@ -24,6 +26,16 @@ spec:
               value: "123"
             - name: MYSQL_DATABASE
               value: "db"
+          volumeMounts:
+            - mountPath: /var/lib/mysql
+              name: mysql-persistent-storage
+      volumes:
+        - name: mysql-persistent-storage
+          hostPath:
+            # directory location on host
+            path: /home/eramax/kubesvs/mysql
+            # this field is optional
+            type: DirectoryOrCreate
 ---
 apiVersion: v1
 kind: Service
@@ -75,5 +87,5 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 80
-      nodePort: 30112
+      nodePort: 31111
   type: NodePort
