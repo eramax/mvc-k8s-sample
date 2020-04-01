@@ -89,3 +89,26 @@ spec:
       targetPort: 80
       nodePort: 31111
   type: NodePort
+---
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: mvc1-ingress
+  annotations:
+    kubernetes.io/ingress.class: "traefik"
+    traefik.frontend.rule.type: PathPrefixStrip
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+
+spec:
+  rules:
+  - host: k8.eramax.net
+    http:
+      paths:
+      - path: /mvc
+        backend:
+          serviceName: mvc-srv
+          servicePort: 80
+  tls:
+  - hosts:
+    - k8.eramax.net
+    secretName: k8-eramax-net-tls
